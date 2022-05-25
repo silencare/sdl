@@ -162,11 +162,11 @@ int main(int argc, char** argv)
         SDL_RenderClear(renderer);
         Color color = Color{ 1,2,3,4 };
         vector<Shape*> items;
-        Rectangle* rect1 = new Rectangle("First Rectangle", 100, 100, 100, 100, Color{123,123,123,255});
-        Rectangle* rect2 = new Rectangle("Second Rectangle", 230, 100, 100, 100, Color{ 123,123,123,255 });
-        Rectangle* rect3 = new Rectangle("Third Rectangle", 360, 100, 100, 100, Color{ 123,123,123,255 });
-        Rectangle* rect4 = new Rectangle("Fourth Rectangle", 490, 100, 100, 100, Color{ 123,123,123,255 });
-		Circle* circle1 = new Circle("Fst Circle", 200, 400, 150, Color{ 123,123,123,255 });
+        Rectangle* rect1 = new Rectangle("First Rectangle", 100, 100, 100, 100, Color{0,0,0,255});
+        Rectangle* rect2 = new Rectangle("Second Rectangle", 230, 100, 100, 100, Color{ 0,0,0,255 });
+        Rectangle* rect3 = new Rectangle("Third Rectangle", 360, 100, 100, 100, Color{ 0,0,0,255 });
+        Rectangle* rect4 = new Rectangle("Fourth Rectangle", 490, 100, 100, 100, Color{ 0,0,0,255 });
+		Circle* circle1 = new Circle("Fst Circle", 200, 400, 150, Color{ 0,0,0,255 });
 
 
         
